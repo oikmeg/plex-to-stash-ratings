@@ -18,7 +18,6 @@ Matches file paths between Plex and Stash DBs to find the Stash IDs. Assumes fil
 ```
 {
     "plex_csv": "ratings_views.csv",
-    "stash_json": "allScenes.json",
     "graphql_url": "",
     "graphql_api_key": ""
 }
