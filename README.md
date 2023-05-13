@@ -1,6 +1,7 @@
 # plex-to-stash-ratings
 
 ## Transfer scene rating and view count from Plex to Stash.
+![Progress](assets/progress.gif)
 
 ### NOTE: Intended for fresh installs before previous view/rating counts exist.
 
