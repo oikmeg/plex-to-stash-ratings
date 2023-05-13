@@ -13,14 +13,7 @@ Matches file paths between Plex and Stash DBs to find the Stash IDs. Assumes fil
 ![Export Settings](assets/export_settings.png)
 ![Custom Levels](assets/custom_levels.png)
 
-# 2. Stash export using `curl`, or your preferred API program.
-
-Run the below command, substituting your API Key and URL. Make sure the output file matches your config.json.
-```
-curl -X POST -H "ApiKey: API_KEY_HERE" -H "Content-Type: application/json" --data '{ "query": "{ allScenes { id path } }" }' STASH_GRAPHQL_URL > allScenes.json
-```
-
-# 3. Setup `config.json`:
+# 2. Setup `config.json`:
 
 ```
 {
@@ -31,9 +24,9 @@ curl -X POST -H "ApiKey: API_KEY_HERE" -H "Content-Type: application/json" --dat
 }
 ```
 
-# 4. Install dependencies
+# 3. Install dependencies
 `pnpm install`
 
 
-# 5. Run
+# 4. Run
 `pnpm ts-node migratePlexRatingViewsToStash.ts`
