@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/oikmeg/plex-to-stash-ratings/compare/v1.1.0...v1.2.0) (2023-05-13)
+
+
+### Features
+
+* :sparkles: get all scenes directly without curl; skip scenes that have already been updated ([5da54c4](https://github.com/oikmeg/plex-to-stash-ratings/commit/5da54c46602fe18cafae89ee4e6b029cc36e2573))
+
 ## [1.1.0](https://github.com/oikmeg/plex-to-stash-ratings/compare/v1.0.0...v1.1.0) (2023-05-13)
 
 
