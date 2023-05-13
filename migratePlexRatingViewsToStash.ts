@@ -56,7 +56,7 @@ const main = async () => {
             }
 
             // Convert rating to 0-100 in multiples of 10, or 0 if null
-            const rating100 = rating ? parseInt(rating, 10) * 20 : 0
+            const rating100 = rating ? parseInt(rating, 10) * 10 : 0
             // Convert views to int, or 0 if null
             const play_count = views ? parseInt(views, 10) : 0
 
